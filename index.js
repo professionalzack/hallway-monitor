@@ -4,7 +4,7 @@ const client = new Discord.Client();
 const prefix = process.env.prefix;
 const token = process.env.TOKEN;
 console.log('prefix', prefix);
-console.log('token', TOKEN);
+console.log('token', token);
 
 client.once('ready', () => {
 	console.log('Ready!');
